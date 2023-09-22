@@ -1,0 +1,16 @@
+baseURL: https://example.org/
+languageCode: ko-KR
+title: OutOfBedlam
+
+module:
+  imports:
+  - disable: false
+    path: github.com/alex-shpak/hugo-book
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+hasCJKLanguage: true
+enableGitInfo: true
