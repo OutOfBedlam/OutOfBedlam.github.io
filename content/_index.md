@@ -5,7 +5,7 @@ BookToC: false
 
 # I'm A Developer.
 
-## {{< icons/icon vendor=fas name=laptop-code color=dark-gray >}} Speaking in ...
+## <img src="/svg/laptop-code-solid.svg" class="book-icon" style="height:16px"/> Speaking in ...
 {{< columns >}}
 ### Curently
 - Go
@@ -25,7 +25,7 @@ BookToC: false
 - C
 {{< /columns >}}
 
-## {{< icons/icon vendor=far name=clock color=dark-gray >}} Recently
+## <img src="/svg/clock-regular.svg" class="book-icon" style="height:16px"/> Recently
 
 {{< columns >}}
 
