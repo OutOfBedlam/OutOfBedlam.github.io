@@ -1,10 +1,11 @@
 ---
 type: docs
+BookToC: false
 ---
 
-# A Developer.
+# I'm A Developer.
 
-## Speaking...
+## {{< icons/icon vendor=fas name=laptop-code color=dark-gray >}} Speaking in ...
 {{< columns >}}
 ### Curently
 - Go
@@ -24,7 +25,7 @@ type: docs
 - C
 {{< /columns >}}
 
-## Recently
+## {{< icons/icon vendor=far name=clock color=dark-gray >}} Recently
 
 {{< columns >}}
 
