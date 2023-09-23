@@ -1,16 +1,35 @@
-baseURL: https://example.org/
+baseURL: https://outofbedlam.github.io/
 languageCode: ko-KR
 title: OutOfBedlam
 
 module:
   imports:
-  - disable: false
-    path: github.com/alex-shpak/hugo-book
+  - path: github.com/alex-shpak/hugo-book
+  - path: github.com/hugomods/icons
+  - path: github.com/hugomods/icons/vendors/font-awesome
 
 markup:
   goldmark:
     renderer:
       unsafe: true
+  tableOfContents:
+    startLevel: 1
 
 hasCJKLanguage: true
 enableGitInfo: true
+enableInlineShortcodes: true
+
+menu:
+  after:
+    - name: "Github"
+      url: "https://github.com/OutOfBedlam"
+      weight: 10
+    
+params:
+  BookTheme: auto # light, dark, auto
+  BookLogo: 'logo.jpeg'
+  BookToC: true
+  BookRepo: 'https://github.com/OutOfBedlam/outofbedlam'
+  BookDateFormat: '2006/01/02'
+  BookComments: false
+  BookEditPath: edit/main
