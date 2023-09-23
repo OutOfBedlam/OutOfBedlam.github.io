@@ -1,9 +1,9 @@
 ---
 date: 2023-09-22
 categories:
-- Programming
+- programming
 tags:
-- Go
+- go
 title: "Go프로그램으로 CPU 종류와 기능 확인하기"
 ---
 

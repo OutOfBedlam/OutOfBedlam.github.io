@@ -4,33 +4,33 @@ type: docs
 
 # A Developer.
 
+## Speaking...
 {{< columns >}}
-### 현재
+### Curently
 - Go
 - AWS
 
 <--->
 
-### 과거
+### Previously
 - Scala
 - Typescript
 - Azure
 
 <--->
 
-### 고대
+### Anciently
 - Java
 - C
-
 {{< /columns >}}
 
-## 최근에 한 일
+## Recently
 
 {{< columns >}}
 
 ### machbase-neo
 
-{{< icons/icon vendor=fas name=fire color=red >}} MQTT/HTTP {{< icons/icon vendor=fas name=arrows-left-right >}} 사용자 정의 데이터 프로세싱 파이프라인 {{< icons/icon vendor=fas name=arrows-left-right >}} 시계열데이터베이스의 통합.
+{{< icons/icon vendor=fas name=fire color=red >}} Integration :: MQTT/HTTP {{< icons/icon vendor=fas name=arrows-left-right >}} User defined data processing pipelines {{< icons/icon vendor=fas name=arrows-left-right >}} timeseries database.
 
 {{< figure src="screen_neo.jpg" >}}
 
@@ -40,7 +40,7 @@ type: docs
 
 ### ots
 
-{{< icons/icon vendor=fas name=earth-asia color=green >}} 오픈 스트리트 맵 (*OpenStreetMap*) 데이터를 변환하여 지도를 생성하는 타일서버.
+{{< icons/icon vendor=fas name=earth-asia color=green >}} A tile server that generates raster image map, it converts Open Street Map data into memory database.
 
 {{< figure src="screen_ots.jpg" >}}
 
