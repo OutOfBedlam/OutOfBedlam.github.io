@@ -18,18 +18,12 @@ markup:
 hasCJKLanguage: true
 enableGitInfo: true
 enableInlineShortcodes: true
-
-menu:
-  after:
-    - name: "Github"
-      url: "https://github.com/OutOfBedlam"
-      weight: 10
-    
+  
 params:
   BookTheme: auto # light, dark, auto
   BookLogo: 'logo.jpeg'
   BookToC: true
-  BookRepo: 'https://github.com/OutOfBedlam/outofbedlam'
+  BookRepo: 'https://github.com/OutOfBedlam/outofbedlam.github.io'
   BookDateFormat: '2006/01/02'
   BookComments: false
   BookEditPath: edit/main
