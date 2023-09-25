@@ -1,28 +1,25 @@
 ---
-type: docs
 BookToC: false
 ---
 
 # I'm A Developer.
 
-## <img src="/svg/laptop-code-solid.svg" class="book-icon" style="height:16px"/> Speaking in ...
 {{< columns >}}
-### Curently
-- Go
-- AWS
+
+## <img src="/svg/laptop-code-solid.svg" class="book-icon" style="height:16px"/> Speaking in ...
+{{< tabs "speaking" >}}
+{{< tab "Currently" >}} Go, AWS {{< /tab >}}
+{{< tab "Previously" >}} Scala, Typescript, Azure {{< /tab >}}
+{{< tab "Anciently" >}} Java, C {{< /tab >}}
+{{< /tabs >}}
 
 <--->
+## <img src="/svg/laptop-code-solid.svg" class="book-icon" style="height:16px"/> Good at...
+{{< tabs "interested" >}}
+{{< tab "Backend" >}} Network, Concurrency, Large-scale network traffic {{< /tab >}}
+{{< tab "Technique" >}} IoT, Trajectory Analysis {{< /tab >}}
+{{< /tabs >}}
 
-### Previously
-- Scala
-- Typescript
-- Azure
-
-<--->
-
-### Anciently
-- Java
-- C
 {{< /columns >}}
 
 ## <img src="/svg/clock-regular.svg" class="book-icon" style="height:16px"/> Recently
