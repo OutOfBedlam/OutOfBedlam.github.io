@@ -7,6 +7,12 @@ title: Go Libraries
 
 ## AI & ML
 
+{{< details title="ollama" open=true >}}
+Get up and running with Llama 2 and other large language models locally
+<br/>{{< sc_github repo="jmorganca/ollama" >}}
+{{< /details >}}
+<br/>
+
 {{< details title="lingua-go" open=true >}}
 The most accurate natural language detection library for Go, suitable for long and short text alike.
 It tells you which language some text is written in.
